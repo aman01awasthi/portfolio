@@ -1,12 +1,23 @@
-import './App.css'
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 
 function App() {
-
   return (
     <>
-    <h1 className="text-3xl font-bold text-red-500">hello</h1>
+      <BrowserRouter>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
