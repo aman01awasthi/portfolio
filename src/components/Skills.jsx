@@ -16,7 +16,7 @@ const Skills = () => {
             {skills.map((skill, i) => (
               <div
                 key={i}
-                className="bg-gray-800 text-white px-6 py-3 rounded-lg text-lg font-medium"
+                className="bg-blue-900 text-blue-300 border border-blue-700 px-6 py-3 rounded-lg text-lg font-medium hover:bg-blue-700 hover:text-white transition-colors duration-200"
               >
                 {skill}
               </div>
