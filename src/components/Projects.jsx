@@ -4,7 +4,7 @@ const Projects = () => {
       name: "Expense Tracker",
       description:
         "Personal finance tracker built with React and Tailwind — live on Vercel",
-      tech: ["React", "Tailwind", "JavaScript"],
+      tech: ["React", "Tailwind"],
       liveLink: "your-vercel-link",
       githubLink: "your-github-link",
       isPrivate: false,
@@ -22,7 +22,7 @@ const Projects = () => {
       name: "InvestXTimes",
       description:
         "Investor dashboard with real-time return projections based on selected plans",
-      tech: ["JavaScript", "CSS3"],
+      tech: ["JavaScript", "Bootstrap", "CSS3"],
       liveLink: "https://investxtimes.com",
       githubLink: null,
       isPrivate: true,
@@ -31,7 +31,7 @@ const Projects = () => {
       name: "CampusDunia",
       description:
         "Four-dashboard platform serving 600,000+ users across Indian educational institutions",
-      tech: ["React.js", "Bootstrap", "Material UI"],
+      tech: ["JavaScript", "Bootstrap", "CSS3"],
       liveLink: "https://test.cerebroxtek.com",
       githubLink: null,
       isPrivate: true,
@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="bg-gray-800 py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-blue-500 mb-10">Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, i) => (
               <div
                 key={i}
@@ -62,7 +62,7 @@ const Projects = () => {
                         key={i}
                         className="bg-blue-900 text-blue-300 px-3 py-1 rounded-full text-xs"
                       >
-                        {tec.tech}
+                        {tec}
                       </span>
                     ))}
                   </div>

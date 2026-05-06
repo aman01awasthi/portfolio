@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -9,13 +8,11 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </BrowserRouter>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   );
 }
