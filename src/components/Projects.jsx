@@ -5,8 +5,8 @@ const Projects = () => {
       description:
         "Personal finance tracker built with React and Tailwind — live on Vercel",
       tech: ["React", "Tailwind"],
-      liveLink: "your-vercel-link",
-      githubLink: "your-github-link",
+      liveLink: "https://expense-tracker-react-olive-ten.vercel.app/",
+      githubLink: "https://github.com/aman01awasthi/expense-tracker-react",
       isPrivate: false,
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="bg-gray-800 py-20 px-6">
+      <div className="bg-gray-800 py-20 px-6" id="projects">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-blue-500 mb-10">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
