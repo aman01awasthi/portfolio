@@ -32,7 +32,7 @@ const Projects = () => {
       description:
         "Four-dashboard platform serving 600,000+ users across Indian educational institutions",
       tech: ["JavaScript", "Bootstrap", "CSS3"],
-      liveLink: "https://test.cerebroxtek.com",
+      liveLink: "https://www.campusdunia.co.in/",
       githubLink: null,
       isPrivate: true,
     },
